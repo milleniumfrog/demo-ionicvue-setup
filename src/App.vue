@@ -1,11 +1,15 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+   <ion-app>
+    <ion-list>
+        <ion-item>
+            foo
+        </ion-item>
+        <ion-item>
+            bar
+        </ion-item>
+    </ion-list>
+  </ion-app>
+
 </template>
 
 <style lang="scss">
